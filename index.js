@@ -8,7 +8,7 @@ bot.on("ready", function() {
     console.log("Connected");
 });
 
-bot.login("NDkxMzMyMDU0NDE2MzU5NDQ0.DoGg9w.87R3Gasu25uPj3LodYHKHyp1vUE");
+bot.login("");
 
 bot.on('message', message => {
     if (message.content === prefix + "lphelp"){
